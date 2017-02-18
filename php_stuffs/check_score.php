@@ -1,8 +1,8 @@
 <html>
 <head> <meta http-equiv="refresh" content="5" /> </head>
 <b>
-<p style="text-align:center">
-<font size="40"><?php
+<p style="text-align:center; font-size: 80px;">
+Score: <?php
 
 $filename = $_GET['sessid'];;
 $failure = "failure";
@@ -19,5 +19,6 @@ try {
         die($num . "");
 } catch (Exception $e) {
         die($failure . "5");
-} ?></font></p></b>
+} ?></p></b>
 </html>
+
