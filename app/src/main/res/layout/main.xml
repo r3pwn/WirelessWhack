@@ -36,5 +36,13 @@
         android:layout_alignParentStart="true"
         android:hint="Session ID" />
 
+    <Button
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/sessionBtn"
+        android:id="@+id/whackbtn"
+        android:visibility="invisible"/>
+
 
 </RelativeLayout>
